@@ -1,0 +1,61 @@
+.app-slider-container {
+   margin-bottom: 5px;
+   .slick-slider {
+      margin-top: 10px;
+      margin-left: -10px;
+      margin-right: -8px;
+   }
+
+   .slider-item {
+      height: 280px;
+      padding-left: 10px;
+      padding-right: 10px;
+      .slider-cart {
+         display: flex;
+         flex-direction: column;
+         align-items: left;
+         overflow: hidden;
+         // height: calc(100% - 10px);
+
+         .track-title {
+            &:hover {
+               opacity: 0.8;
+            }
+         }
+
+         .track-description {
+            &:hover {
+               opacity: 0.8;
+            }
+         }
+      }
+   }
+
+   .slick-arrow {
+      top: 39% !important;
+      width: 32px;
+      height: 32px;
+      padding-top: 3px;
+      border-radius: 2px;
+      background-color: #b3c9de;
+      z-index: 10;
+   }
+
+   .slick-arrow:hover {
+      opacity: 0.9;
+   }
+
+   .slick-prev {
+      left: 0;
+   }
+   .slick-prev:before {
+      font-size: 23px;
+   }
+   .slick-next {
+      right: 2px;
+   }
+
+   .slick-next:before {
+      font-size: 23px;
+   }
+}
